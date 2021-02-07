@@ -1,0 +1,67 @@
+.meal-search-box{
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+   
+}
+.btn{
+    font-family: inherit;
+    cursor: pointer;
+    outline: 0;
+    font-size: 1.05rem;
+}
+
+.title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.meal-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.meal-search-box{
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.search-btn{
+    width: 10%;
+}
+.meal-result{
+    margin: 2.4rem;
+}
+#meal{
+    margin: 2.4rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+
+}
+.search-control{
+    padding: 25px;
+    text-align: center;
+}
+.meal-item{
+    border-radius: 1rem;
+    overflow: hidden;
+}
+.meal-img img{
+    width: 20%;
+    /* display: block; */
+}
+
+.notFound{
+    text-align: center;
+    font-size:55px;
+    color: red;
+}
+
+#ingredientsImg{
+    width:20%;
+}
