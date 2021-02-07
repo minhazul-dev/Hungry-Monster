@@ -23,7 +23,12 @@ function getMealList() {
                     </div>
                 </div> `
                 });
-            }           
+            } 
+            // if(data.meals===" ") 
+            //     {
+            //         allMeals = `Please use a Proper Keyword`;
+            //         mealList.classList.add('notFound');
+            //     }        
           else {
                 allMeals = `Please use a Proper Keyword`;
                 mealList.classList.add('notFound');
@@ -45,9 +50,7 @@ const getMealRecipe = ingredients => {
 const renderIngredientsInfo = meals => {
    
     const ingDiv = document.getElementById('showIngredients')
-    ingDiv.innerHTML = `
-
-    <img id="ingredientsImg" src = "${meals.strMealThumb}" alt = "food">
+    ingDiv.innerHTML = ` <img id="ingredientsImg" src = "${meals.strMealThumb}" alt = "food">
       
      <li>${meals.strIngredient1}<li>
      <li>${meals.strIngredient2}<li>
@@ -59,6 +62,7 @@ const renderIngredientsInfo = meals => {
      <li>${meals.strIngredient8}<li>
      <li>${meals.strIngredient9}<li>
      <li>${meals.strIngredient10}<li>
+     <li>${meals.strIngredient11}<li>
     
     `
 
